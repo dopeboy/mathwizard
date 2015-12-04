@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+		<link rel="stylesheet" type="text/css" href="icon.css">
+		<link rel="stylesheet" type="text/css" href="q1.css">
+		<link rel="stylesheet" href="katex.min.css">
+	</head>
+	<body>
+		<div class="ui text container">
+			<div id="metadata" class="ui grid">
+				<div class="eight wide column">
+					<h4>Type</h4>
+					<div class="ui small breadcrumb">
+						<span class="section">Geometry</span>
+						<i class="right chevron icon divider"></i>
+						<span class="section">Coordinate geometry</span>
+						<i class="right chevron icon divider"></i>
+						<div class="section">Circles</div>
+					</div>
+				</div>
+				<div class="eight wide column">
+					<h4>Tags</h4>
+					<div id="tags">
+						<a class="ui red mini label">circle</a>
+						<a class="ui teal mini label">pythagorean</a>
+					</div>
+				</div>
+			</div>
+			<br/>
+			<div class="ui divider"></div>
+			<br/>
+			<div id="question" class="ui relaxed grid">
+				<div class="eight wide column">
+					<h2>Question</h2>
+					<img class="ui rounded image" src="q1_question.png">
+				</div>
+				<div class="eight wide column">
+					<h2>Choices</h2>
+					<img class="ui rounded image" src="q1_answer.png">
+				</div>
+			</div>
+			<div class="ui relaxed grid">
+				<div class="column">
+					<h2>Help</h2>
+				</div>
+			</div>
+			<div id="1" class="solution ui relaxed grid">
+				<div class="row question">
+					<div class="fifteen wide column">
+						  <img src="patrick.png" class="bot left floated mini ui circular image">
+						  What is the equation of a circle whose center is at the origin and has a radius of <i>r</i>?
+					</div>
+					<div class="one wide column">
+						<button class="show-answer-btn ui icon button">
+						  <i class="angle big double down icon"></i>
+						</button>
+					</div>
+				</div>
+				<div class="row hidden transition answer-text">
+					<div class="fifteen wide column">
+						<img src="patrick.png" class="bot left floated mini ui circular image">
+						<span>
+							<div class="ui middle aligned grid">
+								<div class="two column centered row">
+									<div class="seven wide column">
+										<img class="ui medium image" src="q1_step1.png" class="">
+									</div>
+									<div class="seven wide column">
+										<span class="visual-aid"></span>
+									</div>
+								</div>
+							</div>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div id="2" class="hidden transition solution ui relaxed grid">
+				<div class="row question">
+					<div class="fifteen wide column">
+						  <img src="patrick.png" class="bot left floated mini ui circular image">
+						  What is the equation of a circle whose center is at coordinate (<i>h</i>,<i>k</i>) and has a radius of <i>r</i>?
+					</div>
+					<div class="one wide column">
+						<button class="show-answer-btn ui icon button">
+						  <i class="angle big double down icon"></i>
+						</button>
+					</div>
+				</div>
+				<div class="row answer-text">
+					<div class="fifteen wide column">
+						<img src="patrick.png" class="bot left floated mini ui circular image">
+						<span>
+							<div class="ui middle aligned grid">
+								<div class="two column centered row">
+									<div class="seven wide column">
+										<img src="q1_step2.png" class="">
+									</div>
+									<div class="seven wide column">
+										<span class="visual-aid"></span>
+									</div>
+								</div>
+							</div>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div id="3" class="hidden transition solution ui relaxed grid">
+				<div class="row question">
+					<div class="fifteen wide column">
+						  <img src="patrick.png" class="bot left floated mini ui circular image">
+						  The center of our circle is at (0,4). So we know what to plug in for <i>h</i> and<i> k</i>. What do we get?
+					</div>
+					<div class="one wide column">
+						<button class="show-answer-btn ui icon button">
+						  <i class="angle big double down icon"></i>
+						</button>
+					</div>
+				</div>
+				<div class="row answer-text">
+					<div class="fifteen wide column">
+						<img src="patrick.png" class="bot left floated mini ui circular image">
+						<span>
+							<div class="ui middle aligned grid">
+								<div class="two column centered row">
+									<div class="seven wide column">
+										<img src="q1_step3.png" class="">
+									</div>
+									<div class="seven wide column">
+										<span class="visual-aid"></span>
+									</div>
+								</div>
+							</div>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div id="4" class="hidden transition solution ui relaxed grid">
+				<div class="row question">
+					<div class="fifteen wide column">
+						  <img src="patrick.png" class="bot left floated mini ui circular image">
+						  How do we figure out the radius, <i>r</i>, of our circle?
+					</div>
+					<div class="one wide column">
+						<button class="show-answer-btn ui icon button">
+						  <i class="angle big double down icon"></i>
+						</button>
+					</div>
+				</div>
+				<div class="row answer-text">
+					<div class="fifteen wide column">
+						<img src="patrick.png" class="bot left floated mini ui circular image">
+						<span>
+							<div class="ui middle aligned grid">
+								<div class="two column centered row">
+									<div class="seven wide column">
+										We know the radius extends from the center of the circle to an endpoint of (4/3, 5). We can form a triangle here.
+									</div>
+									<div class="seven wide column">
+										<span class="visual-aid"></span>
+									</div>
+								</div>
+							</div>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div id="5" class="hidden transition solution ui relaxed grid">
+				<div class="row question">
+					<div class="fifteen wide column">
+						  <img src="patrick.png" class="bot left floated mini ui circular image">
+						  What formula do we use to calculate the hypotenuse, <i>r</i>, of our triangle?
+					</div>
+					<div class="one wide column">
+						<button class="show-answer-btn ui icon button">
+						  <i class="angle big double down icon"></i>
+						</button>
+					</div>
+				</div>
+				<div class="row answer-text">
+					<div class="fifteen wide column">
+						<img src="patrick.png" class="bot left floated mini ui circular image">
+						We use the pythagorean theorem where 
+						<img id="pytg" class="" src="q1_step5.png" class="">
+					</div>
+				</div>
+			</div>
+			<div id="6" class="hidden transition solution ui relaxed grid">
+				<div class="row question">
+					<div class="fifteen wide column">
+						  <img src="patrick.png" class="bot left floated mini ui circular image">
+						  What's <i>a</i> and <i>b</i> in our case?
+					</div>
+					<div class="one wide column">
+						<button class="show-answer-btn ui icon button">
+						  <i class="angle big double down icon"></i>
+						</button>
+					</div>
+				</div>
+				<div class="row answer-text">
+					<div class="fifteen wide column">
+						<img src="patrick.png" class="bot left floated mini ui circular image">
+						<span>
+							<div class="ui middle aligned grid">
+								<div class="two column centered row">
+									<div class="seven wide column">
+										<span class="visual-aid"></span>
+									</div>
+									<div class="seven wide column">
+										<img class="ui image small" src="q1_step6_1.png" class="">
+										<br/>
+										<br/>
+										<img class="ui image small" src="q1_step6_2.png" class="">
+										<br/>
+										<br/>
+										<img class="ui image tiny" src="q1_step6_4.png" class="">
+									</div>
+								</div>
+								<div class="two column centered row">
+									<div class="fifteen wide column">
+										Taking the equation for our circle from earlier and substituing appropriately, we get:
+										<br/>
+										<br/>
+										<img class="ui image" src="q1_step6_5.png" class="">
+										<br/>
+										So our answer is <b>(A)</b>
+									</div>
+								</div>
+							</div>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div id="controls" class="ui center aligned grid">
+				<div class="column">
+					<div class="ui buttons">
+						<button class="ui disabled control labeled red icon button">
+							<i class="left chevron icon"></i>
+							Back
+						</button>
+						<button class="ui control right labeled green icon button">
+							Forward
+							<i class="right chevron icon"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="katex.min.js"></script>
+		<script src="semantic/dist/semantic.min.js"></script>
+		<script src="two.min.js"></script>
+		<script src="q1.js"></script>
+	</body>
+</html>

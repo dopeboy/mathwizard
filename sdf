@@ -1,0 +1,15 @@
+
+			<div id="controls" class="ui center aligned grid">
+				<div class="column">
+					<div class="ui buttons">
+						<button class="ui disabled control labeled pink icon button">
+							<i class="left chevron icon"></i>
+							Back
+						</button>
+						<button class="ui control right labeled teal icon button">
+							Forward
+							<i class="right chevron icon"></i>
+						</button>
+					</div>
+				</div>
+			</div>
